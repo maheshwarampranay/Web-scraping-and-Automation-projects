@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup
 import requests
 import re, spotipy
 from spotipy.oauth2 import SpotifyOAuth
-client_id = '3aa0f9cbfd1f45b59fa4d283b8f3eef4'
-client_secret = '62a3d2829bb94bfbb35c867aacec6db9'
+client_id = 'this is secret'
+client_secret = 'this is secret'
 
 
 def get_top_100(date):
